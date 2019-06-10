@@ -212,7 +212,7 @@ def winning_team()
   max_points = 0
   winning_team = ""
   scoreHash.each do |k,v| 
-    if v> max_points
+    if v > max_points
       max_points = v
       winning_team = k
     end
